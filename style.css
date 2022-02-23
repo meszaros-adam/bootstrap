@@ -3,3 +3,11 @@
         width: 50%;
     }
 }
+h1{
+    font-family: monospace;
+}
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
